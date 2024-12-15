@@ -9,7 +9,7 @@ import Navbar from '../components/Navbar';
 import AboutMobileNavbar from '../components/AboutMobileNavbar';
 
 
-const ProductListing = () => {
+const ProductListing1 = () => {
   return (
     <>
       <section>
@@ -22,7 +22,7 @@ const ProductListing = () => {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-1/2 h-auto">
               <Image
-                src={'/images/chair.jpeg'}
+                src={'/images/lamp2.jpeg'}
                 height={800}
                 width={800}
                 alt="chair"
@@ -31,7 +31,7 @@ const ProductListing = () => {
             </div>
             <div className="w-full md:w-1/2 px-4 md:px-10 py-6 flex flex-col justify-center">
               <div>
-                <p className="text-xl md:text-2xl font-semibold">The Dandy Chair</p>
+                <p className="text-xl md:text-2xl font-semibold">The Lucy Lamp</p>
                 <p className="py-2 text-lg md:text-xl">$250</p>
               </div>
               <div className="text-[#505977] text-sm md:text-base">
@@ -99,4 +99,4 @@ const ProductListing = () => {
   );
 };
 
-export default ProductListing;
+export default ProductListing1;
